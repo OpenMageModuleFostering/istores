@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mod_Istores>
+            <version>0.1.0</version>
+        </Mod_Istores>
+    </modules>
+    <adminhtml>
+        <layout>
+            <updates>
+                <Istores>
+                    <file>Istores.xml</file>
+                </Istores>
+            </updates>
+        </layout>
+    </adminhtml>
+    
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Istores after="Mage_Adminhtml">Mod_Istores</Istores>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    
+    <global>
+        <helpers>
+            <Istores>
+                <class>Mod_Istores_Helper</class>
+            </Istores>
+        </helpers>
+    </global>
+    
+    <adminhtml>
+        <menu>
+            <Istores translate="title" module="Istores">
+                <title>iStores</title>
+                <sort_order>0</sort_order>
+                <children>
+                    <export translate="title" module="Istores">
+                        <title>Export</title>
+                        <sort_order>1</sort_order>
+                        <action>adminhtml/istores/export</action>
+                    </export>
+                    <dashboard translate="title" module="Istores">
+                        <title>Dashboard</title>
+                        <sort_order>2</sort_order>
+                        <action>adminhtml/istores/dashboard</action>
+                    </dashboard>
+                </children>
+            </Istores>
+        </menu>
+    </adminhtml>
+</config>

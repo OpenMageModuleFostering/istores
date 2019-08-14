@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>iStores</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This module is used to export products and categories to a XML file used in iStores App.</summary>
+    <description>The online shopping revolution is constantly evolving, and with this brand new iStores application we bring shopping to a whole new level. iStores gives you access to all your favorite stores with the use of only One Account, One Basket and One Checkout process - never has shopping been this easy. Users who are familiar with online shopping often have more than one favorite store they like to visit, meaning multiple accounts, baskets, checkouts, credit cards, etc. - iStores eliminates all this, and gives you a simple and intuitive way to do your online and mobile shopping. Maybe the best part of it all, you don&#xB4;t have to pay before after you receive the selected goods you want to keep - Klarna AB handles all the transactions, safe and secure for everyone involved.&#xD;
+&#xD;
+We have made this application in a native environment, to give you fast and great experience.&#xD;
+Download iStores and go shopping, the way you want to do it!&#xD;
+&#xD;
+Are you missing one of your favorite store(s)? Please help us out and recommend iStores to them, so we can add your favorite store to iStores - we offer an easy integration to new and existing stores. Web shop providers are also welcome to offer iStores as an integration module to their existing offerings, together we can make iStores available for all your costumers.</description>
+    <notes>For use with iStores only</notes>
+    <authors><author><name>S&#x142;awomir Wilusz</name><user>slawil</user><email>slawomir@wilusz.net</email></author></authors>
+    <date>2014-02-14</date>
+    <time>12:22:51</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Mod_Istores.xml" hash="6c57e3a4427ace9cd780605ae9c3c63d"/></dir></dir></target><target name="magelocal"><dir><dir name="Mod"><dir name="Istores"><dir name="etc"><file name="config.xml" hash="39b58ddb08be0567218c0569dc09a4f4"/></dir><dir name="Helper"><file name="Data.php" hash="5e3cdc30692155716f63e3029d51c840"/></dir><dir name="controllers"><file name="IstoresController.php" hash="643b4f7978d757be750e493efb938e71"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.1</min><max>5.5.5</max></php></required></dependencies>
+</package>
