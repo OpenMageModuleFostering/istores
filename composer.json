@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/iStores",
+    "name": "OpenMageModuleFostering\/iStores",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "This module is used to export products and categories to a XML file used in iStores App.",
     "authors": [
-    {
-        "name": "S\u0142awomir Wilusz",
-        "email": "slawomir@wilusz.net"
-    }
-],
+        {
+            "name": "S\u0142awomir Wilusz",
+            "email": "slawomir@wilusz.net"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
